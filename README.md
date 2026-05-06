@@ -15,6 +15,8 @@ The robot autonomously:
 2. Computes an **adaptive elliptical trajectory** around the object
 3. Maintains camera orientation toward the object throughout the scan
 4. Avoids collisions using a real-time **OctoMap occupancy grid**
+
+
 ![Yaskwa HC10 + Kinect 3D](images/robot.png)
 
 ---

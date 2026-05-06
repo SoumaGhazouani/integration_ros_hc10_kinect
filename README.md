@@ -15,6 +15,7 @@ The robot autonomously:
 2. Computes an **adaptive elliptical trajectory** around the object
 3. Maintains camera orientation toward the object throughout the scan
 4. Avoids collisions using a real-time **OctoMap occupancy grid**
+![Yaskwa HC10 + Kinect 3D](images/robot.png)
 
 ---
 
@@ -37,7 +38,8 @@ The robot autonomously:
 *3D model reconstructed via OctoMap after full scanning sequence*
 
 ### Trajectory Accuracy
-![Trajectory Comparison](images/trajectory_comparison.png)
+![Trajectory Comparison](images/trajectory_comparison_start.png)
+![Trajectory Comparison](images/trajectory_comparison_got.png)
 *Target vs. realized trajectory — Max position error: **5×10⁻² mm** | Max orientation error: **8×10⁻² rad***
 
 ---
